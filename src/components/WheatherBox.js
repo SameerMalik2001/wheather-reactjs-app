@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import cloudy from '../assets/cloudy.png'
 import snow from '../assets/snow.png'
 import sun from '../assets/sun.png'
-import rain from '../assets/rainy-day.png'
-import fog from '../assets/fog.png'
+import rain from '../assets/rainy-day.png';
+import fog from '../assets/fog.png';
 
 function WheatherBox() {
   const [data, setData] = useState({ cod: '404', message: 'city not found' })
