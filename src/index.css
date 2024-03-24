@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bgimg{
+        background-image: url('./assets/weather.avif');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
